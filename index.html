@@ -3,202 +3,184 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>UNIS — Dépôt de plainte</title>
 
 <style>
-
 body{
-    margin:0;
-    background:#efe3cf;
-    font-family:Georgia,serif;
-    color:#3f2d22;
-    text-align:center;
+  margin:0;
+  background:#f3e6d6;
+  font-family:Georgia, serif;
+  color:#16120f;
+  text-align:center;
 }
 
 .page{
-    max-width:430px;
-    margin:auto;
-    padding:30px 24px 40px;
-    background:#f7eddc;
-    border:2px solid #b99355;
-    min-height:100vh;
-    box-sizing:border-box;
+  max-width:430px;
+  min-height:100vh;
+  margin:auto;
+  padding:38px 24px;
+  box-sizing:border-box;
+  background:#fff6ea;
+  border:2px solid #c49a45;
+}
+
+.title-box{
+  border:2px solid #c49a45;
+  border-radius:14px;
+  padding:26px 10px;
+  margin:10px 0 18px;
 }
 
 h1{
-    margin-top:5px;
-    margin-bottom:0;
-    font-size:34px;
-    line-height:1.1;
-    color:#222;
-    font-weight:normal;
+  margin:0;
+  font-size:31px;
+  line-height:1.15;
+  letter-spacing:1px;
 }
 
-h2{
-    margin-top:0;
-    margin-bottom:8px;
-    font-size:28px;
-    color:#6f2f8f;
-    font-weight:normal;
-}
-
-.big{
-    font-size:64px;
-    color:#6f2f8f;
-    margin:0;
-    line-height:0.95;
-}
-
-.separator{
-    color:#b99355;
-    font-size:28px;
-    margin:18px 0;
+.star-line{
+  color:#c49a45;
+  font-size:28px;
+  margin:8px 0 26px;
 }
 
 .text{
-    font-size:18px;
-    line-height:1.55;
+  font-size:25px;
+  line-height:1.45;
+  margin:0 0 32px;
 }
 
-.band{
-    margin:25px auto;
-    background:#6f2f8f;
-    color:white;
-    padding:16px;
-    border-radius:12px;
-    font-size:18px;
-    font-weight:bold;
-    line-height:1.4;
+.violet{
+  color:#6d2484;
+  font-weight:bold;
 }
 
-.link-box{
-
-    margin:25px auto;
-    padding:18px;
-    border:2px solid #b99355;
-    border-radius:14px;
-    background:white;
-
+.button{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  border:2px solid #c49a45;
+  border-radius:14px;
+  padding:22px 18px;
+  margin:0 0 26px;
+  text-decoration:none;
+  color:#6d2484;
+  background:#fffaf2;
 }
 
-.link-box a{
+.globe{
+  font-size:48px;
+  line-height:1;
+}
 
-    color:#6f2f8f;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:18px;
-    word-break:break-word;
-
+.button-text{
+  flex:1;
+  font-size:25px;
+  font-weight:bold;
+  line-height:1.25;
 }
 
 .arrow{
-
-    font-size:22px;
-    color:#6f2f8f;
-    margin-top:12px;
-
+  font-size:46px;
+  color:#c49a45;
 }
 
-.security{
-
-    margin:25px auto;
-    padding:16px;
-    border:2px solid #d6c2a2;
-    border-radius:12px;
-    background:#fffdf8;
-    font-size:16px;
-
+.secure{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  border:2px solid #ead8bd;
+  border-radius:14px;
+  padding:22px 18px;
+  margin:0 0 34px;
+  background:#fffaf2;
 }
 
-.footer{
+.lock{
+  font-size:48px;
+}
 
-    margin-top:30px;
-    font-size:15px;
+.secure-text{
+  text-align:left;
+  font-size:20px;
+  line-height:1.45;
+}
 
+.separator{
+  color:#c49a45;
+  font-size:26px;
+  margin:8px 0 24px;
+}
+
+.solo{
+  font-size:35px;
+  font-weight:bold;
+  letter-spacing:1px;
+  margin:0 0 24px;
 }
 
 .logo-bottom{
-
-    width:75px;
-    display:block;
-    margin:20px auto 10px;
-
+  width:95px;
+  display:block;
+  margin:0 auto 28px;
 }
 
-</style>
+.final{
+  font-size:22px;
+  line-height:1.35;
+  margin:0 0 26px;
+}
 
+.bottom-line{
+  color:#c49a45;
+  font-size:28px;
+}
+</style>
 </head>
 
 <body>
-
 <div class="page">
 
-<h1>ENSEMBLE,</h1>
+  <div class="title-box">
+    <h1>DÉPÔT DE PLAINTE EN LIGNE</h1>
+  </div>
 
-<h2>RENDONS L'INVISIBLE</h2>
+  <div class="star-line">— ✦ —</div>
 
-<p class="big">VISIBLE.</p>
+  <p class="text">
+    Tu vas être redirigé(e) vers la<br>
+    <span class="violet">plateforme officielle</span><br>
+    du gouvernement français<br>
+    pour déposer plainte en ligne.
+  </p>
 
-<div class="separator">✦</div>
+  <a class="button" href="https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/portail-signalement-violences-sexuelles-sexistes" target="_blank">
+    <span class="globe">◎</span>
+    <span class="button-text">ACCÈDE À LA<br>PLATEFORME OFFICIELLE</span>
+    <span class="arrow">›</span>
+  </a>
 
-<p class="text">
-Chaque démarche compte.<br>
-Chaque voix change les choses.
-</p>
+  <div class="secure">
+    <div class="lock">🔒</div>
+    <div class="secure-text">
+      Site officiel du gouvernement français.<br>
+      Tes informations restent <span class="violet">confidentielles.</span>
+    </div>
+  </div>
 
-<div class="band">
+  <div class="separator">— ✦ —</div>
 
-PLATEFORME OFFICIELLE<br>
-DE DÉPÔT DE PLAINTE
+  <div class="solo">TU N’ES PAS SEUL(E).</div>
 
-</div>
+  <img class="logo-bottom" src="logoUNIS-transparent.png" alt="Logo UNIS">
 
-<p class="text">
+  <p class="final">
+    Chaque <span class="violet">vérité</span> mérite d’être <span class="violet">entendue.</span>
+  </p>
 
-Ce lien vous mène directement vers le site officiel
-du gouvernement pour déposer plainte en ligne.
-
-</p>
-
-<div class="link-box">
-
-<a href="https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/portail-signalement-violences-sexuelles-sexistes" target="_blank">
-Cliquez ici pour accéder à la plateforme officielle
-</a>
-
-</div>
-
-<div class="arrow">
-
-⬆️ Cliquez sur le lien
-
-</div>
-
-<div class="security">
-
-🔒 Site officiel et sécurisé du gouvernement.<br>
-Vos informations restent confidentielles.
+  <div class="bottom-line">— ✦ —</div>
 
 </div>
-
-<div class="separator">♥</div>
-
-<p style="font-size:26px;margin-bottom:5px;">
-
-TU N'ES PAS SEUL(E).
-
-</p>
-
-<img src="logoUNIS-transparent.png" class="logo-bottom" alt="Logo UNIS">
-
-<p class="footer">
-
-ENSEMBLE, PLUS FORTS CONTRE LES VIOLENCES.
-
-</p>
-
-</div>
-
 </body>
 </html>
